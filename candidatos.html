@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">datos</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+    <div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">CORREO</label>
+</div>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">CONTRASEÑA</label>
+</div>
+<br>
+ <button type="submit" class="btn btn-primary">INGRESAR</button>
+  </div>
+</div>
+
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">administrador</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">candidatos</a>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="#">resultados de votos</a>
+        </li>
+      </ul>
+      <a class="btn btn-danger" href="index .html" role="button">salir</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<section class="contenedor">
+<section class="formulario">
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="Nombre Del Candidato">
+  <label for="floatingInput">Combre Del Candidato</label>
+</div>
+
+<select class="form-select" aria-label="Default select example">
+  <option selected>PARTIDOS POLITICOS </option>
+  <option value="1">partido politico</option>
+  <option value="2">liberal</option>
+  <option value="3">conservador</option>
+  <option value="3">cambio radical</option>
+  <option value="3">alianza verde</option>
+</select>
+
+
+<div class="mb-3">
+  <label for="formFile" class="form-label">foto del candidato</label>
+  <input class="form-control" type="file" id="formFile">
+
+  <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Comments</label>
+</div>
+
+<div class="col-12">
+    <button type="submit" class="btn btn-danger">guardar</button>
+
+</div>
+</section>
+</section>
+
+
+
+
+ 
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
+</body>
+
+
+</html>
